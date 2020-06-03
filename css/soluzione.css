@@ -13,3 +13,45 @@
     transition: 10s;
     border-radius: 100px;
 }
+
+.ex-4-square:hover {
+    transition: 5s;
+    opacity: 0;
+}
+
+.ex-5-square:hover {
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    transform: scale(1.5);
+}
+
+.ex-5-square:active {
+    transition: 1s;
+    width: 10px;
+    height: 10px;
+    transform: scale(0.5 0.5);
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    transition: 8s;
+    filter: grayscale(100%);
+}
+
+.ex-8-img:hover {
+    transition: 10s;
+    filter: grayscale(80%);
+    border-radius: 60px;
+}
+
+.ex-9-img:hover {
+    transition: 2s;
+    filter: grayscale(80%);
+    border-radius: 60px;
+    transform: scale( 1.5);
+    width:450px;
+}
